@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class nextPermutation {
@@ -40,6 +39,8 @@ public class nextPermutation {
         reverse(arr, gola_idx+1, n-1);        
 
         print(arr, n);
+
+        sc.close();
     }
     public static void swap(int[] arr, int i, int j){
         int temp = arr[i];

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class buyAndSellStock {
     public static void main(String[] args) {
-             Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int[] arr = new int[n];
         for(int i=0; i<n; i++)
@@ -10,6 +10,7 @@ public class buyAndSellStock {
 
         if(n==1){
             System.out.println(arr[0]);
+            sc.close();
             return;
         }
 
@@ -31,5 +32,7 @@ public class buyAndSellStock {
         System.out.println();
 
         System.out.println(profit);
+
+        sc.close();
     }
 }
