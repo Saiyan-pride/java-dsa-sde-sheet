@@ -38,5 +38,7 @@ public class sortZeroesOnesTwos {
         }
 
         print(arr, n);
+
+        sc.close();
     }
 }
