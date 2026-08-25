@@ -40,5 +40,6 @@ public class rotateMatrix {
         // print(mat, n);
         rotate(mat, n);
         print(mat, n);
+        sc.close();
     }
 }

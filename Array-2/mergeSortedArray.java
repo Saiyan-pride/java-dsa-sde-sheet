@@ -17,10 +17,12 @@ public class mergeSortedArray {
 
         if(n==0){
             print(num2, m);
+            sc.close();
             return;
         }
         if(m==0){
             print(num1, n);
+            sc.close();
             return;
         }
 
@@ -38,6 +40,6 @@ public class mergeSortedArray {
         while(j<m) res[k++] = num2[j++];
 
         print(res, n+m);
-
+        sc.close();
     }    
 }

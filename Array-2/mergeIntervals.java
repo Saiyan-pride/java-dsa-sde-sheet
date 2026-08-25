@@ -44,6 +44,6 @@ public class mergeIntervals {
        for(int[] ele : res)
             System.out.print("["+ele[0]+" "+ele[1]+"]");
         System.out.println();
-
+        sc.close();
     }
 }
